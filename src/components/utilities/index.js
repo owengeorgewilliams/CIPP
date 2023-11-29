@@ -1,4 +1,5 @@
 import CippActionsOffcanvas from 'src/components/utilities/CippActionsOffcanvas'
+import CippCodeOffCanvas from 'src/components/utilities/CippCodeOffcanvas.jsx'
 import CippCodeBlock from 'src/components/utilities/CippCodeBlock'
 import CippOffcanvas from 'src/components/utilities/CippOffcanvas'
 import CippProfile from 'src/components/utilities/CippProfile'
@@ -12,12 +13,14 @@ import StatusIcon from 'src/components/utilities/StatusIcon'
 import TenantSelector from 'src/components/utilities/TenantSelector'
 import TenantSelectorMultiple from 'src/components/utilities/TenantSelectorMultiple'
 import ThemeSwitcher from 'src/components/utilities/ThemeSwitcher'
+import PageSizeSwitcher from 'src/components/utilities/PageSizeSwitcher'
 import Toasts from 'src/components/utilities/Toasts'
 import UsageLocation from 'src/components/utilities/UsageLocation'
 
 export {
   CippActionsOffcanvas,
   CippCodeBlock,
+  CippCodeOffCanvas,
   CippOffcanvas,
   CippProfile,
   ErrorBoundary,
@@ -33,6 +36,7 @@ export {
   TenantSelector,
   TenantSelectorMultiple,
   ThemeSwitcher,
+  PageSizeSwitcher,
   Toasts,
   UsageLocation,
 }
